@@ -1,7 +1,7 @@
 Feature: Login
     Perform login on email and password are inputted
 
-    @login-featur0 e
+    @login-feature
     Scenario Outline: Input email and password in wrong format
         Given I am on login screen
         When I input email <row>
